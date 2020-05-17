@@ -78,9 +78,9 @@
 - I am from [London](location)
 - I am based in [France](location)
 - From the [Netherlands](location)
-- I am from the [United States](location:USA)
+- I am from the [United States]{"entity": "location", "value": "USA"}
 - I am from [Berlin](location)
-- I am based in the [New York](location:NYC)
+- I am based in the [New York]{"entity": "location", "value": "NYC"}
 - I am from [Detroit](location)
 - [Paris](location)
 - [Chicago](location)
@@ -94,7 +94,7 @@
 - I come from [New York City](name)
 - I live in [SF](location)
 - [San Francisco](location)
-- I live in [San Fran](location:SF)
+- I live in [San Fran]{"entity": "location", "value": "SF"}
 - I am from [America](location)
 - I come from the [US](location)
 - I am from [Charlotte](location)
@@ -157,13 +157,13 @@
 - Great!
 
 ## synonym:NY
+- New York
 - New York City
 - The Big Apple
-- New York
 
 ## synonym:SF
 - San Fran
 
 ## synonym:USA
-- US
 - United States
+- US
